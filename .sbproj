@@ -323,7 +323,7 @@
       {
         "Name": "MF DOCKER",
         "GameIdent": "garrycity.sandbox_entity_net#local",
-        "MapName": "redwig.mf_docker",
+        "MapName": "facepunch.flatgrass",
         "MaxPlayers": 64,
         "GameSettings": {},
         "Addons": "",
