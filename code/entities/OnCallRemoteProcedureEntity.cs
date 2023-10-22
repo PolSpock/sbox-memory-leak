@@ -1,8 +1,8 @@
 ﻿using Sandbox;
 
 [Spawnable]
-[Library( "ent_net", Title = "Lamp" )]
-public partial class NetEntity : ModelEntity
+[Library( "ent_oncallremoteprocedureentity", Title = "OnCallRemoteProcedureEntity" )]
+public partial class OnCallRemoteProcedureEntity : ModelEntity
 {
 	private const int SendModificationsRpc = 269924000;
 

@@ -2,8 +2,8 @@
 using System;
 
 [Spawnable]
-[Library( "ent_another_net", Title = "Lamp" )]
-public partial class AnotherNetEntity : ModelEntity
+[Library( "ent_networkserializerentity", Title = "NetworkSerializerEntity" )]
+public partial class NetworkSerializerEntity : ModelEntity
 {
 
 	[Net] public NetSerializer Data { get; set; }
@@ -37,7 +37,6 @@ public partial class AnotherNetEntity : ModelEntity
 
 
 	}
-
 
 	public void Remove()
 	{

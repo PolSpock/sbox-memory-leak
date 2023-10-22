@@ -37,7 +37,7 @@
 
 		void ShootBox()
 		{
-			var ent = new AnotherNetEntity
+			var ent = new Prop
 			{
 				Position = Owner.EyePosition + Owner.EyeRotation.Forward * 50,
 				Rotation = Owner.EyeRotation
