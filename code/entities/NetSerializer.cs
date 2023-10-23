@@ -20,7 +20,6 @@ public partial class NetSerializer : BaseNetworkable, INetworkSerializer
 
 	void INetworkSerializer.Read( ref NetRead read )
 	{
-
 		var count = read.Read<int>();
 
 		for ( var i = 0; i < count; ++i )

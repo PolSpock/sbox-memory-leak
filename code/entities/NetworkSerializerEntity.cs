@@ -29,10 +29,7 @@ public partial class NetworkSerializerEntity : ModelEntity
 		{
 			Data.Size = new Random().Next( 128, 2048 );
 
-			foreach ( var client in Game.Clients )
-			{
-				Data.WriteNetworkData();
-			}
+			Data.WriteNetworkData();
 		}
 
 
